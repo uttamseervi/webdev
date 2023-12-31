@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-it Fitness</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_1280.jpg');
+         background-size: cover;
+        color: white;
+        font-family: 'Baloo Bhai';
+        height: 800px;
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 43px;
+
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar {
+        list-style: none;
+        display: inline-block;
+
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: white;
+        padding: 34px;
+        font-size: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color:yellow;
+        text-decoration: underline;
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .left img {
+        border-radius: 50%;
+        width: 150px;
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 20px;
+
+    }
+
+    .bts {
+        margin: 0px 10px;
+        padding: 8px 15px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15x;
+        cursor: pointer;
+        color: white;
+        background-color: black;
+        font-family: 'Baloo Bhai';
+    }
+
+    .bts:hover {
+        background-color: rgb(39, 36, 36);
+    }
+
+    .welcome h1 {
+        text-align: right;
+        padding: 20px 20px;
+        margin: 15px 223px
+    }
+
+    .container {
+        border: 3px solid white;
+        padding: 10px 15px;
+        margin: 11px 100px;
+        border-radius: 12px;
+        width: 33%;
+        position: relative;
+        top: 10px;
+        left: -60px;
+        float: right;
+    }
+
+    .formgroup input {
+        height: 35px;
+        text-align: center;
+        display: block;
+        width: 75%;
+        border: 2px solid black;
+        padding: 2px 2px;
+        margin: 3px auto;
+        font-size: 20px;
+        border-radius: 23px;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .container button {
+        display: block;
+        width: 75%;
+        margin: 5px auto;
+        padding: 8px 4px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .page-end {
+
+        display: inline-block;
+        width: 97.45%;
+        margin: 45px auto;
+        position: relative;
+        top: 28%;
+        text-align: center;
+        padding: 3px 18px;
+        
+
+    }
+</style>
+
+<body>
+    <!-- left box for logo -->
+    <!-- right box for some buttons -->
+    <!-- mid box for nav bar -->
+
+    <header class="header">
+        <div class="left">
+            <img src="https://media.istockphoto.com/id/1018498538/vector/ferocious-bull-powerlifter-with-barbell-muscular-buffalo-mascot.jpg?s=2048x2048&w=is&k=20&c=C17Hp8q56PVn87GktgDm-PRGJ3XSdc9NH3bJ8q9w51w="
+                alt="">
+            <div>
+                Flex-it Fitness
+            </div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class='active'>Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="bts">Login</button>
+            <button class="bts">Sign up</button>
+        </div>
+    </header>
+    <!-- =============================== main content start here =============================-->
+    <div class="welcome">
+        <h1>Welcome to Flex-it Fitness!</h1>
+    </div>
+    <div class="container">
+        <h1>Join the best GYM of BANGALORE!!</h1>
+        <form action="noaction.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter Your Locality">
+            </div>
+        </form>
+        <button class="bts">Submit</button>
+    </div>
+    <footer class="page-end">
+        <p>&copy; 2023 Flex-it Fitness</p>
+    </footer>
+
+
+</body>
+
+</html>
