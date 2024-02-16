@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.1s all ease-in;
+}
+.calculator{
+    width: 100vw;
+    height:100vh ;
+   background-color:rgba(45, 44, 44, 0.555);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 20px;
+}
+.container h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.message{
+    width: 27rem;
+    padding: 15px 10px;
+    margin: 10px 0;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    border: none;
+    background-color:rgba(0, 0, 0, 0.748);
+    color: white;
+    
+    
+}
+.btn:hover{
+    cursor: pointer;
+
+    transform: scaleX(1.0454);
+}
+.red{
+    background-color: #16355c;
+    
+}
